@@ -71,7 +71,6 @@ for (let i = 0; i < slideContainer.length; i++) {
     };
 
     const init = () => {
-      // goToSlide(0);
       createDots();
 
       activateDot(0);
