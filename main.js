@@ -41,7 +41,7 @@ for (let i = 0; i < slideContainer.length; i++) {
     };
 
     const nextSlide = () => {
-      if (currentSlide === slidesCount - 1) {
+      if (currentSlide >= slidesCount - 1) {
         currentSlide = 0;
       } else {
         currentSlide++;
@@ -52,7 +52,7 @@ for (let i = 0; i < slideContainer.length; i++) {
     };
 
     const prevSlide = () => {
-      if (currentSlide === 0) {
+      if (currentSlide <= 0) {
         currentSlide = slidesCount - 1;
       } else {
         currentSlide--;
@@ -90,6 +90,7 @@ for (let i = 0; i < slideContainer.length; i++) {
     dotsContainer.addEventListener("click", (e) => {
       if (e.target.classList.contains("dots__dot")) {
         const { slide } = e.target.dataset;
+        currentSlide = slide;
         goToSlide(slide);
         activateDot(slide);
       }
