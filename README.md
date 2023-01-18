@@ -23,5 +23,5 @@ Responsive slider build in a native javascript ES6 with a nice transitions effec
 
 ## Contact
 
-Project Link (Live): https://hamza-qatash.github.io/Slider/
-Project Code (GitHub repo): https://github.com/Hamza-Qatash/Slider
+- Project Link (Live): https://hamza-qatash.github.io/Slider/
+- Project Code (GitHub repo): https://github.com/Hamza-Qatash/Slider
