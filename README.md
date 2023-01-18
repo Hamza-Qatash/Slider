@@ -18,5 +18,5 @@ Responsive slider build in a native javascript ES6 with a nice transitions effec
 #### auto play
 
 - You can add the auto play for the silder by adding class "auto-play" to the element with class "slider".
-- To specify the auto play duration for the slider add a custom attribute [auto-data-autoplay-duration="3000"] for the element with class "slider" and then specify the duration in milliseconds.
+- To specify the auto play duration for the slider add a custom attribute [data-autoplay-duration="3000"] for the element with class "slider" and then specify the duration in milliseconds.
   - In case of not specifying the auto play duration a default "3000 milliseconds" will be used.
