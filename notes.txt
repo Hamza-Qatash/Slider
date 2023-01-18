@@ -1,0 +1,5 @@
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+https://codepen.io/CodedByPiyush/pen/vYeLqaN
+https://codepen.io/goldigo/pen/YzXogYR
+https://stackoverflow.com/questions/68052997/multiple-sliders-in-one-page-website-with-javascript
+https://picsum.photos/200/200
